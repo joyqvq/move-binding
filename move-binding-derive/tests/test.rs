@@ -2,9 +2,10 @@ use crate::bridge::bridge::BridgeInner;
 use crate::sui::dynamic_field::Field;
 use move_binding_derive::move_contract;
 use move_types::Key;
+use move_types::ObjectId;
 use std::str::FromStr;
 use sui_client::Client;
-use sui_sdk_types::{Address, ObjectData, ObjectId};
+use sui_sdk_types::{Address, ObjectData};
 use sui_transaction_builder::unresolved::Input;
 use sui_transaction_builder::TransactionBuilder;
 
